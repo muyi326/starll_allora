@@ -16,7 +16,6 @@ log_warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
 
 # 常量定义
 PROJECT_DIR="allora-offchain-node"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ABS_PATH="$HOME/$PROJECT_DIR"
 
 # 检查Docker是否运行
